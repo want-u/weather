@@ -47,7 +47,7 @@ def get_weather():
 
 msg = get_weather()
 msg = '\t\t\t\t<这是今日份的天气>\n' + next(msg) + '=' * 40 + '\n\t\t\t\t<还有明日份的天气>\n' + next(msg) + '=' * 40
-#print(msg)
+print(msg)
 
 # 设置邮箱的域名
 HOST = 'smtp.qq.com'
